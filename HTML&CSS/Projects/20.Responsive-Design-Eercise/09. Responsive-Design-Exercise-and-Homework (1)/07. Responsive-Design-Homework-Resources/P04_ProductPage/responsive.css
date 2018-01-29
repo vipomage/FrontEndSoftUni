@@ -1,0 +1,42 @@
+@media screen and (max-width: 640px){
+    body{
+        width: 100%;
+    }
+    header div.wrap{
+        width: 100%;
+    }
+    header div.wrap div#header-bottom-area{
+        display: none;
+    }
+    header div.wrap div#product-menu{
+        display: table-row;
+        width: 100%;
+    }
+    header div.wrap div#product-menu:hover{
+        display: block;
+
+    }
+    #product-menu ul:hover ul.submenu {
+        display: block;
+        width: 100%;
+    }
+    .wrap{
+        width: 100%;
+    }
+    footer .wrap{
+        width: 100%;
+        text-align: center;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    footer .wrap div{
+        background-color: #26292D;
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}

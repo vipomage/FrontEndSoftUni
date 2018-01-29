@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/P05_InnovationCloud/text.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/P06_Conference/text.txt" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/P07_Table/text.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/P07_Table_v2/text.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/P08_BookStore/text.txt" charset="UTF-8" />
+  </component>
+</project>

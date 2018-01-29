@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+body{
+    font-family: 'Lemon', Arial;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #66327b;
+}
+
+main{
+    width: 900px;
+    height: 550px;
+    background-color: #ffb237;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    margin: 40px 0;
+    padding-top: 30px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+article{
+    background-color: #65255c;
+    display: inline-block;
+    width: 220px;
+    margin: 0 30px;
+    border-radius: 20px 0 20px 0 ;
+    padding: 8px;
+}
+img{
+    width: 85%;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+.price{
+    font-size: 22px;
+}
+.price,p{
+    color: white;
+    line-height: 10px;
+}
+.warranty{
+    color: #ffb237;
+}
+button{
+
+    border-radius: 25px;
+    padding: 2px 60px;
+    font-family: 'Lemon',Arial;
+}

@@ -1,0 +1,175 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900 ";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    text-transform: uppercase;
+}
+nav{
+    text-align: center;
+}
+.main-nav ul li{
+    text-align: center;
+    display: inline-block;
+    flex-direction: row;
+    margin: 10px 60px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    color: gray;
+}
+.main-nav ul li:hover {
+    color: black;
+    border-bottom: 2px solid darkgray;
+    cursor: pointer;
+}
+article{
+    height: 600px;
+}
+h1.solo-h1{
+    vertical-align: middle;
+    padding-top: 100px;
+    font-size: 3em;
+}
+article div.solo{
+    width: 360px;
+    padding: 20px;
+}
+article div.solo p{
+    text-transform: none;
+}
+button{
+    border: none;
+    background: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+button:hover{
+    cursor: pointer;
+}
+img.first{
+    float: right;
+    width: 500px;
+    height: 500px;
+    vertical-align: top;
+}
+img.powerbeats{
+    float: left;
+    margin-right: 50px;
+}
+article.powerbeats-article{
+    background-color: #fbfcff;
+}
+article.powerbeats-article img{
+    padding-right: 30px;
+}
+article.powerbeats-article div.subhead h1{
+    font-size: 3em;
+    font-weight: normal;
+}
+article.powerbeats-article div.subhead p {
+    position: relative;
+    bottom: 50px;
+}
+article.powerbeats-article div.subhead {
+    margin-right: 70px;
+    text-align: right;
+}
+article.powerbeats-article img{
+    float: left;
+}
+.powerbeats-description{
+    text-transform: none;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.powerbeats-article div{
+    display: block;
+}
+.powerbeats-price-buy{
+    margin-top: 50px;
+}
+.powerbeats-price-buy p{
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+article.promo{
+    height: auto;
+}
+article.promo section{
+    background-color: #575757;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.promo section h2{
+    margin-top: 40px;
+    color: darkgray;
+}
+.promo section h2 span{
+    color: white;
+}
+.promo section h2,.promo section img{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.promo section img{
+    transform: scale(0.5);
+}
+.promo section a{
+    font-weight: bolder;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.bottom-images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.left-div,.right-div{
+
+    width: 50%;
+    height: 700px;
+}
+.left-div{
+    background: url("img/beats-girl.png") center no-repeat;
+    background-size: cover;
+
+}
+.right-div h1{
+    font-size: 7em;
+    text-align: left;
+    padding-left: 50px;
+    width: 350px;
+    margin-bottom: 0;
+    float:left;
+}
+.right-div p {
+    font-size: 2em;
+    text-transform: none;
+    text-align: left;
+    padding-left: 50px;
+    width: 350px;
+    float:left;
+}
+.right-div p span{
+    text-transform: uppercase;
+    color: red;
+    font-weight: bolder;
+}
+.right-div{
+    background-color: #dadada;
+}
+.right-div img{
+    margin-top: 40px;
+}
+footer{
+    text-align: center;
+    text-transform: none;
+}

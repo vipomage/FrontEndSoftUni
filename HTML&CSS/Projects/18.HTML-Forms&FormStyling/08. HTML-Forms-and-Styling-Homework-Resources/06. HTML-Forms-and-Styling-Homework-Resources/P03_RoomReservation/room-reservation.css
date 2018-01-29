@@ -1,0 +1,75 @@
+body{
+    background: #EBEBEB;
+}
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Tahoma,Helvetica,sans-serif;
+
+}
+.search-label{
+    font: 18px Tahoma,Helvetica,sans-serif;
+    font-weight: bold;
+}
+main{
+    font: 13px Tahoma,Helvetica,sans-serif;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    padding-left: 10px;
+    font-size: 28px;
+    color: #3AA3E5;
+    background-color: #F1f1f1;
+    margin: 0;
+    line-height: 100px;
+    font-weight: 100;
+}
+section.info{
+    border-top: dashed darkgray;
+    padding-top: 30px;
+    border-bottom: dashed darkgray;
+}
+div.info-tab{
+    display: inline-flex;
+}
+.person-details{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.person-details input{
+    margin: 5px 0;
+}
+div.first{
+    width: 450px;
+}
+section.forms{
+    display: flex;
+}
+div.second{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.no-rooms{
+    padding-left: 225px;
+}
+#room-selelct{
+    width: 300px;
+}
+.check-dates{
+    width: 230px;
+}
+.cheeck-out{
+    padding-left: 185px;
+}
+input.person-details{
+    padding:5px 10px;
+}
+
+
+
+
+

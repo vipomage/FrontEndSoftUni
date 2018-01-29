@@ -1,0 +1,70 @@
+@media screen and (max-width: 640px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul.nav-primary {
+        display: block;
+        text-align: center;
+
+    }
+
+    .nav-item > a {
+        margin-right: 0;
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul.nav-primary li {
+        width: 100%;
+        padding: 15px auto;
+        margin: 15px auto;
+    }
+
+    main {
+        text-align: center;
+        width: 100%;
+    }
+
+    section.solo {
+        height: 350px;
+    }
+
+    h1, p {
+        padding: 35px 0;
+    }
+
+    section.second-row {
+        flex-direction: column;
+    }
+
+    section.second-row div {
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .mixr-left, .urbeats-right {
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        color: white;
+    }
+
+    section.studio {
+        height: 350px;
+    }
+
+    section.grid-gallery {
+        display: inline-block;
+    }
+
+    section.grid-gallery img {
+        width: 40%;
+    }
+
+}

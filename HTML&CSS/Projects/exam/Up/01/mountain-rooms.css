@@ -1,0 +1,80 @@
+@import "https://fonts.googleapis.com/css?family=Lato ";
+@import "https://fonts.googleapis.com/css?family=Montserrat ";
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v11/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+
+
+
+body{
+    font-family: "Lato";
+    width: 1920px;
+    height: 1080px;
+    margin:0;
+    padding: 0;
+    color: #b0b0b0;
+}
+main{
+    width:80%;
+    text-align: center;
+    margin: 0 auto;
+}
+h2,p.price span{
+    color: #3a3946;
+    font-family:"Monsterrat",sans-serif,extrabold;
+    text-transform: uppercase;
+    font-weight:700;
+
+}
+h1{
+    color: #3a3946;
+    font-family:"Monsterrat",sans-serif,extrabold;
+    text-transform: uppercase;
+    font-weight:900;
+    margin-bottom: 40px;
+}
+section{
+    vertical-align: top;
+    margin: 10px;
+    display: inline-block;
+}
+h2{
+    text-align: left;
+    text-transform: uppercase;
+}
+ul{
+    text-align: left;
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    display: inline;
+    padding-right: 10px;
+}
+.bullet{
+    opacity: 0.5;
+}
+p.price{
+    margin: 20px 0 0 0 ;
+
+    padding: 0;
+    text-align: left;
+
+}
+p.price span{
+    font-family: "Monsterrat", sans-serif, extrabold;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1d3ab0;
+
+}
+p.price {
+    font-weight: 600;
+}
+

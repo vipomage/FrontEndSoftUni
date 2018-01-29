@@ -1,0 +1,162 @@
+html{
+
+}
+body{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    background: radial-gradient(ellipse at center,
+    rgba(192,169,145,1) 0%,
+    rgba(192,169,145,1) 59%,
+    rgba(168,143,121,1) 100%);
+    padding: 0;
+    margin: 0;
+}
+nav{
+    height: 70px;
+    display: block;
+    color: rgb(255,255,255);
+
+}
+.brand{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 700;
+    color: white;
+    float: left;
+}
+ul.nav-primary{
+    float: right;
+}
+ul.nav-primary li{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+ul.nav-primary li:hover{
+    background-color: #8c7866;
+    border-color: #8c7866;
+}
+header{
+    text-align: center;
+}
+h1.header-title{
+    font-size: 50px;
+    margin: 130px 0 0 0;
+    text-transform: capitalize;
+    color: white;
+    font-weight: lighter;
+}
+h3.header-subtitle{
+    color: white;
+}
+header img{
+    width: 25%;
+}
+div.features{
+    height: 700px;
+    text-align: center;
+    background: url("images/potato-background.png") center;
+    background-size: cover;
+
+}
+h1.features-title{
+    padding-top: 170px;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+h3.features-subtitle{
+    font-weight: normal;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.buy-now{
+    text-align: center;
+}
+h1.order-title{
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+ul.potato-types{
+    padding: 0;
+    margin: 0;
+}
+div.buy-now{
+    background-color: #fafafa;
+    padding-top: 1px;
+}
+div.buy-now img{
+    width: 200px;
+
+}
+ul.potato-types li{
+    display: inline-block;
+    vertical-align:top;
+    width: 250px;
+}
+ul.potato-types li img{
+    padding-top: 30px;
+    vertical-align: middle;
+}
+li.potato{
+    border-right: 2px solid black;
+    height: 550px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+}
+li.potato h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: lighter;
+    vertical-align: top;
+    margin-top: 0;
+}
+ul.potato-types ul.potato-features{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+
+}
+ul.potato-features li{
+    padding: 15px 0;
+}
+li.potato button{
+    background: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #a1d03c;
+    border: 2px solid #a1d03c;
+}
+footer{
+
+    background-color: #867260;
+    vertical-align: bottom;
+}
+footer p.footer-text{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+    vertical-align: 100%;
+}
+
+
+
+
+

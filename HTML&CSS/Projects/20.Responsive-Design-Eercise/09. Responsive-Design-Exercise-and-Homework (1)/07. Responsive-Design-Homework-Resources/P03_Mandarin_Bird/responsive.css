@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px){
+    header{
+        width: 90%;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    footer p{
+        margin: 0 auto;
+        padding: 5px auto;
+        text-align: center;
+    }
+
+    div#wrapper{
+        width: 100%;
+    }
+    main {
+        width: 90%;
+
+
+    }
+    main section > div {
+        background-color: white;
+        margin-bottom: 25px;
+        height: 170px;
+        width: inherit;
+    }
+    main section,main aside {
+        width: 95%;
+
+    }
+    header nav > ul li {    width: 20%;    }
+    main > aside > article {
+        width: 90%;
+    }
+    main aside{ margin-top: 0; }
+}
+@media screen and (max-width: 730px){
+
+    main{
+        margin-top: 200px;
+    }
+
+    header nav ul li{
+        display: block;
+        width: 100%;
+    }
+
+    main section div{
+        display: block;
+        height: 1%;
+        text-align: center;
+
+    }
+    main section div  div{
+        background-color: rgba(184,204,136,0.71);
+        text-align: center;
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    article p{
+        text-align: left;
+    }
+
+
+
+}

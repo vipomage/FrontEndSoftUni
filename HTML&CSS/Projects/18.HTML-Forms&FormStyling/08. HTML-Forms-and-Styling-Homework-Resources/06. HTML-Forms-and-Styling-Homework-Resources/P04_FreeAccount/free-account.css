@@ -1,0 +1,79 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body{
+    background-color: rgba(238,238,238,0.71);
+    font-family: Tahoma,Tahoma,sans-serif;
+}
+main{
+    margin: 0 auto;
+    width:800px;
+    align-content: center;
+    background: rgb(255,255,255);
+}
+header h1{
+    font-size: 24px;
+}
+header{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+.selection{
+
+    font-weight: bolder;
+    padding: 10px 120px;
+}
+input{
+    margin: 10px 0 10px 120px;
+    padding: 10px 25px;
+}
+button{
+    margin-left: 120px;
+}
+label.promos{
+
+}
+a.forgot{
+    padding-left: 120px;
+}
+button{
+    margin-top: 0;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 2px 0 0 darkgray;
+}
+button.create{
+
+}
+button:hover{
+    background-color: rgb(175,223,103);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.forgot{
+    color: red;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+input::after{
+    content: '\f00c';
+}
+i.fa-check-square{
+    position: relative;
+    color: lawngreen;
+}
+i.fa-window-close{
+    position: relative;
+    color: red;
+}
+i{
+    right: 20px;
+
+}

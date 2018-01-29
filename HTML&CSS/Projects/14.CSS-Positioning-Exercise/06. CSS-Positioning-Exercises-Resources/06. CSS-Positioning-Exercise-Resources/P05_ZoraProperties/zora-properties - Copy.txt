@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zora Properties</title>
+    <link rel="stylesheet" href="zora-properties.css">
+</head>
+<body>
+<aside>
+    <h3>ZORA</h3>
+    <img class="profilePicture" src="images/profile-picture.jpg" alt="">
+    <p>John Doe</p>
+    <nav>
+        <ul>
+            <li><i class="fa fa-cogs" aria-hidden="true"></i> properties</li>
+            <li><i class="fa fa-user-circle-o" aria-hidden="true"></i> applicants</li>
+            <li><i class="fa fa-users" aria-hidden="true"></i> tennats</li>
+            <li><i class="fa fa-comments-o" aria-hidden="true"></i> messages</li>
+        </ul>
+    </nav>
+</aside>
+<main>
+    <header>
+        <h1>properties <em>3</em></h1>
+    </header>
+        <div class="areaInfo">
+            <p class="region">spring garden road complex</p>
+            <p class="adress">1158 spring garden road, los angeles us</p>
+        </div>
+    <section>
+        <article>
+            <p class="status">rented</p>
+            <img class="apartment" src="images/apartment-1.jpg" alt="">
+            <p>super sweet apartment</p>
+            <p>unit 305</p>
+        </article>
+        <article>
+            <p class="status">listed</p>
+            <img class="apartment" src="images/apartment-2.jpg" alt="">
+            <p>super sweet apartment</p>
+            <p>unit 302</p>
+        </article>
+        <article>
+            <p class="status">draft</p>
+            <img class="apartment" src="images/apartment-3.jpg" alt="">
+            <p>super sweet apartment</p>
+            <p>unit 303</p>
+        </article>
+    </section>
+    <div class="areaInfo">
+        <p class="region">spring garden road complex</p>
+        <p class="adress">1158 spring garden road, los angeles us</p>
+    </div>
+    <section>
+        <article>
+            <p class="status">listed</p>
+            <img class="apartment" src="images/apartment-4.jpg" alt="">
+            <p>super sweet apartment</p>
+            <p>unit 305</p>
+        </article>
+        <article>
+            <p class="status">listed</p>
+            <img class="apartment" src="images/apartment-5.jpg" alt="">
+            <p>super sweet apartment</p>
+            <p>unit 302</p>
+        </article>
+        <article>
+            <p class="status">draft</p>
+            <img class="apartment" src="images/apartment-6.jpg" alt="">
+            <p>super sweet apartment</p>
+            <p>unit 303</p>
+        </article>
+    </section>
+</main>
+<div>
+    <p class="btnAdd">add property</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css";
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    header.about-us {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    header.about-us * {
+        width: 90%;
+        margin: 15px;
+    }
+
+    div.info {
+        width: 100%;
+    }
+
+    div.info p {
+        width: 100%;
+    }
+
+
+    .views {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .views img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .our-team {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .why-us {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .why-us article {
+        width: 100%;
+    }
+
+    #second-heading {
+        width: 100%;
+        margin-top: 450px;
+    }
+
+    .headings:last-of-type {
+        width: 100%;
+    }
+    .headings{
+        margin-top:30px;
+    }
+    .our-team article {
+        margin-right: 0;
+    }
+    #second-heading {
+        width: 100%;
+        margin-top: 350px;
+    }
+
+
+    /* */
+
+    .menu ul {
+        text-align: right;
+        display: none;
+        margin-left: 0;
+    }
+    nav span,nav ul{
+        display: inline-block;
+        padding-left: 0;
+    }
+    .menu span:after{
+        float: right;
+        content: url("bars.png");
+
+    }
+    .menu span{
+        width: 100%;
+        !important;
+        padding: 35px 0 0 0;
+        margin-left: 0;
+    }
+
+
+}

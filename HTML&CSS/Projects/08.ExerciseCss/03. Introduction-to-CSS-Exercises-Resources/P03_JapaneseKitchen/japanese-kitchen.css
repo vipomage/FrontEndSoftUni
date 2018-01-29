@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 14px;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body{
+    background: url("images/dark-wood.jpg");
+
+}
+main{
+    width: 940px;
+    margin: auto;
+    background-color: white;
+}
+header{
+    background:  center no-repeat url("images/header-page.jpg");
+    align-content: center;
+    padding: auto;
+    margin: auto;
+    height: 130px;
+    width: 940px;
+
+}
+header h1{
+   text-align: right;
+    line-height: 130px;
+    font-size: 60px;
+    padding-right: 15px;
+
+}
+nav {
+    border-top: 2px solid black;
+    margin-bottom:5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    height: 20px;
+    padding-bottom: 10px;
+    background-image: url("images/header-page.jpg");
+
+}
+nav li{
+    display: inline-block;
+    padding: 5px 10px;
+
+}
+nav a, a:link, a:active, a:visited{
+    color: #333;
+    padding: 5px 7px 10px 7px;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: solid;
+    }
+nav a:hover{
+    color: white;
+}
+figure{
+    float: left;
+    border: solid 2px lightsteelblue;
+    padding: 5px;
+    font-weight: bold;
+
+
+}
+.courses article{
+    padding: 15px 10px ;
+}
+article p{
+    font-size: 18px;
+
+}
+.courses article div{
+    margin-left: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+figure:after{
+    clear-after: both;
+    float: left;
+}
+div h2{
+    font-size: 27px;
+}
+.courses article{
+    display: inline-block;
+    width: 615px;
+    padding-left: 20px;
+
+}
+.courses{
+    width: 640px;
+    border-right: 2px solid black;
+}
+.popular-recipes{
+    float: right;
+}
+.courses::after {
+    content: '';
+    clear: both;
+    display: block;}

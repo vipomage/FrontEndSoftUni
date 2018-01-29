@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px) {
+    body div.wrap, .wrapper {
+        width: 100%;
+    }
+
+    div.wrapper {
+        padding-left: 25px;
+    }
+
+    div.wrap section .content-wrap {
+        display: block;
+    }
+
+    footer.main-foot div.wrapper {
+        box-sizing: inherit;
+
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    footer.main-foot div.wrapper nav,address{
+        padding-left: 25px;
+    }
+    div.wrapper{
+        display: inline-flex;
+    }
+    div.wrapper nav , address{
+        flex-wrap: wrap;
+        display: flex;
+        width: 50%;
+    }
+}

@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0E1013;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+/*TODO Animations*/
+.ball:nth-of-type(1) {
+    background: #ff005d;
+    animation: mymove 1s infinite linear;
+    position: relative;
+    animation-delay: 0.7s;
+}
+
+.ball:nth-of-type(2) {
+    animation: mymove 1s infinite linear;
+    position: relative;
+    background: #35ff99;
+    animation-delay: 0.6s;
+}
+
+.ball:nth-of-type(3) {
+    background: #008597;
+    animation: mymove 1s infinite linear;
+    position: relative;
+    animation-delay: 0.5s;
+}
+
+.ball:nth-of-type(4) {
+    background: #ffcc00;
+    animation: mymove 1s infinite linear;
+    position: relative;
+    animation-delay: 0.4s;
+}
+
+.ball:nth-of-type(5) {
+    background: #2d3443;
+    animation: mymove 1s infinite linear;
+    position: relative;
+    animation-delay: 0.3s;
+}
+
+.ball:nth-of-type(6) {
+    background: #ff7c35;
+    animation: mymove 1s infinite linear;
+    position: relative;
+    animation-delay: 0.2s;
+}
+
+.ball:nth-of-type(7) {
+    background: #4d407c;
+    animation: mymove 1s infinite linear;
+    position: relative;
+    animation-delay: 0.1s;
+}
+
+/*TODO @keyframes*/
+
+@keyframes d {
+    0% {
+        left: 10%;
+    }
+    10% {
+        left: 20%;
+    }
+    20% {
+        left: 30%;
+    }
+    30% {
+        left: 20%;
+    }
+    40% {
+        left: 10%
+    }                   /* THIS IS WHAT DESPERATION MEANS */
+    50% {
+        left: 0px;
+    }
+    60% {
+        right: 10%;
+    }
+    70% {
+        right: 20%;
+    }
+    80% {
+        right: 30%;
+    }
+    90% {
+        right: 20%;
+    }
+    100% {
+        right: 10%;
+    }
+}
+@keyframes mymove { /* y i know */
+    0%{right: 0}
+    25%{right: 100px}
+    50%{right: 0}
+    75%{right: -100px}
+    100%{right: 0px}
+}

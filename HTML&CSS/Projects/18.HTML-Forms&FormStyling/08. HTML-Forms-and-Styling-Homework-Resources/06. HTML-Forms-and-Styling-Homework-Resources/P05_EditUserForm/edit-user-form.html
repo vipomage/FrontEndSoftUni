@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/edit-user-form.css">
+</head>
+<body>
+<header>
+    <h1>edit user</h1>
+</header>
+<main>
+    <label class="text" for="username">Username</label><br>
+    <input class="text" id="username" type="text"><br>
+    <label class="text" for="email">Email</label><br>
+    <input class="text" id="email" type="email"><br>
+    <label class="text" for="phone">Phone number</label><br>
+    <input class="text" id="phone" type="text"><br>
+    <label class="text" for="radio-broadband">User type</label><br>
+    <form id="radio-broadband"><br>
+        <input class="radio" id="broadband" type="radio"><label for="broadband">Broadbad</label>
+        <input class="radio" id="radio" type="radio"><label for="radio">Radio</label>
+    </form>
+    <label for="passw-change">Change Password</label><br>
+    <input class="text" id="passw-change" type="password"><br>
+    <label for="group">Group</label>
+    <div class="group-chkbox" id="group">
+        <input class="group-chkbox" type="checkbox"><label for="all">All Groups</label><br>
+        <input class="group-chkbox" type="checkbox"><label id="grp-1">Group 1</label><br>
+        <input class="group-chkbox" type="checkbox"><label id="grp-2">Group 2</label><br>
+        <input class="group-chkbox" type="checkbox"><label id="grp-3">Group 3</label><br>
+        <input class="group-chkbox" type="checkbox"><label id="grp-4">Group 4</label><br>
+    </div>
+    <label for="contact-list">Contacts</label><br>
+    <a href="#">See Contacts List</a><br>
+    <div class="footer-buttons">
+        <button class="cancel">CANCEL</button>
+        <button class="save">SAVE</button>
+    </div>
+</main>
+
+</body>
+</html>

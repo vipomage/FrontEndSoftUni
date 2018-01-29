@@ -1,0 +1,176 @@
+body {
+    font-family: "Lato", sans-serif;
+
+}
+
+
+.container {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(46, 69, 86);
+    padding: 15px 15px 60px 30px;
+}
+
+header ul {
+
+    height: 40px;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+header li {
+    display: inline-block;
+    padding: 0 15px 0;
+    cursor: pointer;
+    color: rgb(90, 140, 130);
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.date {
+    text-align: right;
+    font-size: 22px;
+    color: rgb(90, 140, 130);
+    text-transform: uppercase;
+}
+
+h1 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+h2 {
+    color: rgb(90, 140, 130);
+    font-size: 22px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 16px;
+    color: grey;
+}
+
+button {
+    background-color: rgb(46, 69, 86);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 5%;
+    padding: 25px 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(90, 140, 130);
+}
+
+main {
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+main p {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+main section {
+    text-align: left;
+    display: inline-block;
+    max-width: 30%;
+}
+
+footer {
+    background-color: #2d4455;
+}
+
+footer ul {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+
+}
+
+footer li {
+    padding: 0 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+footer p {
+    font-size: 22px;
+    color: white;
+
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

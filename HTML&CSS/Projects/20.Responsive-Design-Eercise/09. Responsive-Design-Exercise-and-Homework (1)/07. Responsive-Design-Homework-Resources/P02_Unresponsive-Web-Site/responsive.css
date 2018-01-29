@@ -1,0 +1,62 @@
+@media screen and (max-width: 960px) {
+    div#wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) and (min-width: 640px) {
+    header nav ul {
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    body #wrapper > header nav ul {
+        list-style-type: none;
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    header nav ul {
+        display: block;
+    }
+    body #wrapper > header h1 a span {
+        margin: 0 auto;
+    }
+    body #wrapper > header h1 a img {
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    body #wrapper > header nav ul li {
+        width: inherit;
+        text-align: center;
+        background: #224465;
+        display: block;
+        font-size: 1.1em;
+        position: relative;
+        margin-left: 0;
+        padding: 5px;
+        border: 1px solid rgb(176, 224, 244);
+    }
+    body #wrapper > section {
+        width: 100%;
+        order: 2;
+    }
+    body #wrapper aside{
+       width: 100%;
+        order: 5;
+        flex-flow: row;
+    }
+}
+@media screen and (max-width: 480px){
+    body #wrapper aside{
+        width: 100%;
+        order: 5;
+        flex-flow: column;
+    }
+}

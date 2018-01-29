@@ -1,0 +1,95 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body{
+    font-size: 14px;
+    font-family: Tahoma, Helvetica,sans-serif;
+    padding: 80px 50px;
+}
+ul,nav,div,label{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+nav.main-nav{
+    background: #384452 ;
+    width: 70%;
+}
+ul li.li-item{
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+}
+a{
+    margin-left: 15px;
+    color: #8baec2;
+    text-decoration: none;
+}
+a:before{
+    font-family: 'FontAwesome',Serif;
+    margin-right: 10px;
+    font-size: 18px;
+}
+li:first-child a::before{
+    content: "\f002";
+
+}
+li:nth-child(2) a::before{
+    content: "\f02c";
+
+}
+li:nth-child(3) a::before{
+    content: "\f041";
+}
+
+li:nth-child(4) a::before{
+    content: '\f007';
+}
+li:hover{
+     background-color: #3BBC96;
+}
+
+li:hover a{
+    color: #ffffff;
+}
+
+main{
+    background-color: #eeeeee;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label{
+    color: #374574;
+    display: block;
+    font-weight: bold;
+    width: 210px;
+    margin-top: 20px;
+}
+div{
+    margin-left: 38px;
+}
+input{
+    border: 1px solid #CDCDCD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 46px;
+    padding-left: 14px;
+}
+button.btn-find{
+    margin-left: 38px;
+    width: 210px;
+    height: 46px;
+    text-transform: uppercase;
+    background-color: #384452;
+    color: #CED1CA;
+}
+button.btn-find:hover{
+    background-color: #3BBC96;
+    color: #fff7e4;
+    cursor: pointer;
+}

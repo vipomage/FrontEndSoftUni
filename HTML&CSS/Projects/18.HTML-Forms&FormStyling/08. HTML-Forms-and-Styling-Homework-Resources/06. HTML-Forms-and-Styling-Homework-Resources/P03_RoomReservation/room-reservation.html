@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>Room Reservation</h1>
+    </header>
+    <section class="info">
+        <h3 class="subtitle">Basic Information</h3>
+        <div class="info-tab">
+            <p class="basic-info-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                nec commodo.
+            </p>
+            <form class="search-form">
+                <label class="search-label" for="search-box">Search</label>
+                <input id="search-box" type="text">
+            </form>
+        </div>
+    </section>
+    <section class="forms">
+        <!-- I HATED THIS PART -->
+        <div class="first">
+            <h3 class="subtitle">Personal Details</h3>
+            <form id="person-details" class="person-details">
+                <input class="person-details" type="text" placeholder="First Name">
+                <input class="person-details" type="text" placeholder="Last Name">
+                <input class="person-details" type="email" placeholder="Enter email">
+            </form>
+        </div>
+        <div class="second">
+            <h3>Request a reservation</h3>
+            <label class="room-pick" for="room-selelct">Select a room</label>
+            <label class="no-rooms" for="no-rooms">Number of Rooms</label><br>
+
+            <select id="room-selelct">
+                <option>Room 1</option>
+                <option>Room 2</option>
+                <option>Room 3</option>
+                <option>Room 4</option>
+            </select>
+            <input id="no-rooms" type="text" value="1"><br>
+
+            <label for="check-in">Check-In</label>
+            <label class="cheeck-out" for="check-out"check-out>Check-Out</label><br>
+
+            <input class="check-dates" id="check-in" type="date" placeholder="dd/mm/yyyy">
+            <input class="check-dates" id="check-out" type="date" placeholder="dd/mm/yyyy">
+        </div>
+    </section>
+
+</main>
+</body>
+</html>

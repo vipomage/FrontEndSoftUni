@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+@import "https://fonts.googleapis.com/css?family=Anton";
+
+body{
+    font: 14px 'Lato',sans-serif;
+    display: flex;
+    align-content: center;
+    padding: 80px 50px;
+    margin: 50px auto;
+}
+main{
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 10px 15px 50px 0 rgba(72,204,205,0.3);
+}
+img {
+    margin-top: 60px;
+    width: 400px;
+
+
+}
+div.image{
+
+    display: inline-flex;
+    height: 500px;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    width:400px;
+    border-radius: 20px 0 0 20px;
+}
+form{
+    display: block;
+}
+div.input{
+    display: block;
+    margin-left: 25px;
+}
+div.input h1,div.input h2{
+    font-family: "Anton",Serif;
+}
+input{
+    margin: 20px 0;
+}
+select {
+    -webkit-appearance: none;
+    padding: 5px;
+    margin: 15px;
+    width: 175px;
+    text-decoration: none;
+    background-color: rgba(72,204,205,0.71);
+    border: none;
+}
+input{
+    margin-left: 15px;
+    border: none;
+    border-bottom: 3px solid rgba(59,200,201,0.71);
+    text-decoration: none;
+    color: rgba(72,204,205,0.71);
+}
+button{
+    background: none;
+    border: 2px solid #6afdc9;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin: 5px;
+    padding:  5px 20px;
+    color: #6afdc9;
+}
+button:hover{
+    background-color: #6afdc9;
+    color: white;
+    border: 2px solid #6afdc9;
+    cursor: pointer;
+}
+
+

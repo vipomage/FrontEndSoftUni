@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500,700";
+
+body{
+    font-family: "Roboto",Helvetica,sans-serif;
+    color: #1e1917;
+    font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+main{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+label{
+    font-size: 14px;
+    font-weight: 500;
+}
+button{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+header{
+    box-shadow: inset -10px 10px  rgb(50,78,91);
+    padding: 30px;
+    color: #2E4854;
+    background-color: white;
+    font-weight: bolder;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+input.text{
+    box-shadow: inset 3px 3px #2E4854;
+    width: inherit;
+    padding-top: 10px;
+    margin: 5px 0 5px  0;
+}
+input.group-chkbox{
+    margin: 10px;
+}
+form#radio-broadband label{
+    margin-right: 30%;
+}
+div#group{
+    box-shadow: inset 3px 3px #2E4854;
+    width: inherit;
+    background-color: white;
+}
+.footer-buttons{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+.footer-buttons button{
+    padding: 15px 140px;
+    position: relative;
+    right: 100px;
+    border-top: none;
+    border-left: none;
+    color:#136F63 ;
+    border-bottom: 5px solid #136F63;
+    border-right: 5px solid  #136F63;
+    background: none;
+    margin: 0 15px;
+}
+.footer-buttons button.cancel{
+    color: #FF5427;
+    border-bottom: 5px solid #FF5427;
+    border-right: 5px solid  #FF5427;
+}
+a{
+    color: #136F63;
+}

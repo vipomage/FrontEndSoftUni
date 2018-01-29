@@ -1,0 +1,21 @@
+.box {
+    border: 1px solid green;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+.order-1{
+    order: 2;
+    flex-grow:5;
+}
+.order-2{
+    order: 3;
+}
+.order-3{
+    order: 1;
+}

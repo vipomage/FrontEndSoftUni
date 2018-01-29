@@ -1,0 +1,159 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+body{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato",sans-serif ;
+}
+nav div.horizontal ul{
+    margin-left: 230px;
+}
+header{
+    text-align: center;
+    color: white;
+    background: url("images/header.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+div.horizontal img,div.horizontal ul{
+    display: inline-block;
+    flex-direction: column;
+}
+div.horizontal img{
+    float: left;
+    padding: 15px;
+    margin-right: 50px;
+}
+div.horizontal ul li{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+nav{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: top;
+}
+header h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3em;
+}
+header button{
+    padding: 10px 25px;
+    background:#c7bc9c ;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+header li a:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+div.about-us{
+    text-align: center;
+    color: black;
+    width: 70%;
+    margin: 0 auto;
+}
+div.about-us h1,.text-shadow{
+    text-shadow: 1px 1px 60px;
+    text-transform: uppercase;
+}
+p.description{
+    margin: 100px 0;
+
+}
+div.team-availability{
+    background-color: #f6f6f6;
+}
+div.team-availability ul{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+div.team-availability ul li{
+    display: inline-block;
+    width: 17%;
+    margin-bottom: 50px;
+}
+div.team-availability ul li h4{
+    font-weight: bolder;
+}
+div.team-availability ul li img{
+    width: 80px;
+    margin-top: 50px;
+}
+li.separator{
+    margin: 20px 20%;
+}
+div.pic-container img{
+    box-shadow: 5px 5px 20px 0px grey;
+}
+div.pic-container img{
+    width: 350px;
+    height: 350px;
+}
+div.our-team{
+    width: 99%;
+    margin: 50px auto;
+    text-align: center;
+}
+div.our-team ul li{
+    margin: 40px;
+    display: inline-block;
+}
+h2{
+    text-transform: uppercase;
+}
+div.latest-blog h1,div.latest-blog p{
+    text-align: center;
+}
+p.italic{
+    font-style: italic;
+}
+div.latest-blog{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 50px 10px;
+}
+div.latest-blog ul {
+    margin: 0 auto;
+}
+div.latest-blog ul li img{
+    width: 350px;
+    height: 350px;
+
+}
+
+div.latest-blog ul li {
+    font-family:"Lato",serif;
+    background-color: white;
+    display: inline-flex;
+    width: 650px;
+    box-shadow: 0px 0px 30px 0px;
+}
+
+.blog-container{
+    display: inline-block;
+    margin: 30px 70px;
+}
+.blog-container div{
+    display: block;
+    padding: 30px;
+
+}
+.blog-container div h3{
+    text-transform: uppercase;
+}
+p{
+    color: darkgrey;
+}

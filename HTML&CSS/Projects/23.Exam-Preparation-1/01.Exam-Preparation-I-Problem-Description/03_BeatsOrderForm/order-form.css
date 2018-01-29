@@ -1,0 +1,92 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    background: linear-gradient(to right,#14353f, #5f676e);
+}
+main {
+    z-index: 1;
+    width: 900px;
+    height: 620px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+img {
+    background-color:transparent;
+    bottom: 5px;
+    left: 35px;
+    position: relative;
+    z-index: 2;
+    float: left;
+    margin-right: 180px;
+    opacity: 1;
+}
+div{
+    float: left;
+    width: 370px;
+}
+div.input-boxes{
+    width: 460px;
+    margin-top: 70px;
+}
+i{
+    position: relative;
+    left: 20px;
+}
+input::placeholder{
+    position: relative;
+    left: 30px;
+}
+input::value{
+    position: relative;
+    left: 30px;
+}
+
+input{
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #14353f;
+    padding: 15px 5px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+div.headings{
+font-weight: bolder;
+    font-size: 20px;
+    margin: 30px;
+}
+h1.model{
+    margin-top: 30px;
+    color: darkgray;
+}
+h1.price{
+    color: gray;
+}
+h1{
+    letter-spacing: 1px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+button{
+    float: right;
+    margin-top: 40px;
+    margin-right:40px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #14353f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
