@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>timer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        #timer {
+            font-size: 5em;
+            }
+    </style>
+</head>
+<body>
+<div id="timer">
+    <span class="hidden day" hidden>0</span>
+    <span id="hours" class="timer">00</span>:
+    <span id="minutes" class="timer">00</span>:
+    <span id="seconds" class="timer">00</span>
+    <button id="start-timer">Start</button>
+    <button id="stop-timer">Stop</button>
+</div>
+
+</body>
+<script src="timer.js"></script>
+<script>
+    window.onload = () => {
+        $('button#stop-timer').attr('disabled','true');
+        let timer;
+        $( 'button#start-timer' ).on( 'click', () => {
+            timer = setInterval( step, 1000 );
+            $('button#start-timer').attr('disabled','true');
+            $('button#stop-timer').removeAttr('disabled');
+        } );
+        $( 'button#stop-timer' ).on( 'click', () => {
+            clearInterval( timer );
+            $('button#stop-timer').attr('disabled','true');
+            $('button#start-timer').removeAttr('disabled');
+        } );
+        //if you click multiple times on start clearInterval does not work :(
+        //so i disable buttons once they are used to avoid further breaking...
+    }
+</script>
+</html>

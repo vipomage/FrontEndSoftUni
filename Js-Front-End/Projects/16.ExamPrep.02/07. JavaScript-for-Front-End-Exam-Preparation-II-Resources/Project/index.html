@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continental Rift</title>
+    <link href="res/reset.css" rel="stylesheet" type="text/css">
+    <link href="res/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <h1>Continental Drift</h1>
+    </div>
+    <div class="content">
+        <div class="continents">
+        </div>
+        <div class="continent-data">
+        </div>
+        <div class="continent-country">
+        </div>
+    </div>
+</div>
+<script src="res/script.js"></script>
+<script>
+
+    if ($('div.continent-data').css('display') === 'inline-block'){
+        $('div.continent-data').removeAttribute('style');
+    }
+    $.ajax( {
+        url: 'https://continental-drift.firebaseio.com/continents.json',
+        success: displayData,
+
+    } );
+
+    function displayData( continents ) {
+        $( 'div.continents' ).on( 'click', 'div.continent', ( e ) => {
+
+            $('div.continents-data').show();  // i spent 3 hours trying to fix displaying of these 2 fkers
+            $('div.continent-country').show();// with no success one hides the other one doesn't
+            let continent = e.target.innerText;
+            continentData( continents, continent );
+
+        } );
+        continentsRender( continents );
+
+
+    }
+</script>
+</body>
+</html>

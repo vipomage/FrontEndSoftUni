@@ -1,0 +1,15 @@
+$color-default: red;
+$pixels: 20px;
+
+@mixin buttonStyle {
+    border-radius: 15px;
+    background: deepskyblue;
+    color: purple;
+    &:hover {
+	background: white;
+	}
+    }
+
+button {
+    @include buttonStyle;
+    }

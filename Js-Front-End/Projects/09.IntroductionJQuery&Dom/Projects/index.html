@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<ul id="items">
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+</ul>
+<button>Extract Text</button>
+<div onclick="extractText()" id="result"></div>
+
+</body>
+<script>
+            function extractText() {
+                let items = $('#items li').toArray().map(li => li.textContent).join(', ');
+                $('#result').text(items);
+            }
+
+
+
+</script>
+<script src="jQuery.js"></script>
+</html>

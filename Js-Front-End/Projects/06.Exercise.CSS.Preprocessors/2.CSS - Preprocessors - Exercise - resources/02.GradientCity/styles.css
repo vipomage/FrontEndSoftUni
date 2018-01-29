@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  /* THIS IS SNEAKY :DD but i got the gamer eye*/
+  background: linear-gradient(to bottom, #808080, white);
+  z-index: 1; }
+  body div#wrapper {
+    border: 5px double grey;
+    padding: 20px; }
+
+body {
+  /*Meh couldn't use them :D,got the idea tho i could change the colour with variables btw this is a comment */
+  font-family: "Roboto",sans-serif;
+  font-size: 13px;
+  font-weight: 100; }
+  body div.wrapper + h1 {
+    font-weight: bold; }
+  body div#wrapper header:nth-of-type(1) {
+    border: 3px double black; }
+  body h1 {
+    text-decoration: underline;
+    font-weight: 100; }
+  body h2 {
+    color: #808080;
+    font-weight: 100; }
+  body div#wrapper {
+    z-index: 2;
+    background: white;
+    width: 90%;
+    margin: 0 auto; }
+    body div#wrapper header {
+      margin-bottom: 15px; }
+      body div#wrapper header h1 {
+        border: none;
+        font-weight: bold;
+        text-align: center;
+        color: #808080; }
+      body div#wrapper header nav ul {
+        text-align: center;
+        list-style: none; }
+        body div#wrapper header nav ul li {
+          display: inline-block;
+          text-align: center;
+          text-decoration: none; }
+          body div#wrapper header nav ul li a {
+            color: #808080;
+            margin: 0 15px;
+            border: 3px gray double;
+            text-decoration: none;
+            padding: 5px 15px; }
+            body div#wrapper header nav ul li a:hover {
+              background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+              color: white; }
+    body div#wrapper section.linear {
+      margin-bottom: 20px;
+      border: 3px double black; }
+      body div#wrapper section.linear header {
+        margin: 10px 20px; }
+      body div#wrapper section.linear article {
+        border: 1px solid #808080;
+        margin: 10px 20px; }
+        body div#wrapper section.linear article div.innerContainer {
+          margin: 10px auto;
+          text-align: center; }
+          body div#wrapper section.linear article div.innerContainer div {
+            margin: 0;
+            height: 120px;
+            width: 16%;
+            display: inline-block;
+            border-radius: 10px; }
+          body div#wrapper section.linear article div.innerContainer .purple {
+            background: linear-gradient(to bottom, purple 0%, rgba(0, 0, 0, 0) 100%); }
+          body div#wrapper section.linear article div.innerContainer .blue {
+            background: linear-gradient(to bottom, blue 0%, rgba(0, 0, 0, 0) 100%); }
+          body div#wrapper section.linear article div.innerContainer .green {
+            background: linear-gradient(to bottom, green 0%, rgba(0, 0, 0, 0) 100%); }
+          body div#wrapper section.linear article div.innerContainer .yellow {
+            background: linear-gradient(to bottom, yellow 0%, rgba(0, 0, 0, 0) 100%); }
+          body div#wrapper section.linear article div.innerContainer .orange {
+            background: linear-gradient(to bottom, orange 0%, rgba(0, 0, 0, 0) 100%); }
+          body div#wrapper section.linear article div.innerContainer .red {
+            background: linear-gradient(to bottom, red 0%, rgba(0, 0, 0, 0) 100%); }
+        body div#wrapper section.linear article header {
+          text-align: center;
+          border: none; }
+          body div#wrapper section.linear article header h1 {
+            border: none; }
+      body div#wrapper section.linear article:nth-of-type(2) div .purple {
+        background: linear-gradient(to right, purple 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(2) div .blue {
+        background: linear-gradient(to right, blue 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(2) div .green {
+        background: linear-gradient(to right, green 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(2) div .yellow {
+        background: linear-gradient(to right, yellow 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(2) div .orange {
+        background: linear-gradient(to right, orange 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(2) div .red {
+        background: linear-gradient(to right, red 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(3) div .purple {
+        background: linear-gradient(to bottom right, purple 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(3) div .blue {
+        background: linear-gradient(to bottom right, blue 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(3) div .green {
+        background: linear-gradient(to bottom right, green 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(3) div .yellow {
+        background: linear-gradient(to bottom right, yellow 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(3) div .orange {
+        background: linear-gradient(to bottom right, orange 0%, rgba(0, 0, 0, 0) 100%); }
+      body div#wrapper section.linear article:nth-of-type(3) div .red {
+        background: linear-gradient(to bottom right, red 0%, rgba(0, 0, 0, 0) 100%); }
+    body div#wrapper section.radial {
+      border: 3px double black;
+      margin-bottom: 20px; }
+      body div#wrapper section.radial article {
+        border: 1px solid black;
+        margin: 10px 15px;
+        padding: 10px; }
+        body div#wrapper section.radial article div.innerContainer div.purple {
+          margin: 0;
+          height: 120px;
+          width: 16%;
+          display: inline-block;
+          border-radius: 10px;
+          background: radial-gradient(ellipse at center, purple 0%, rgba(0, 0, 0, 0) 100%); }
+        body div#wrapper section.radial article div.innerContainer .blue {
+          margin: 0;
+          height: 120px;
+          width: 16%;
+          display: inline-block;
+          border-radius: 10px;
+          background: radial-gradient(ellipse at center, blue 0%, rgba(0, 0, 0, 0) 100%); }
+        body div#wrapper section.radial article div.innerContainer .green {
+          margin: 0;
+          height: 120px;
+          width: 16%;
+          display: inline-block;
+          border-radius: 10px;
+          background: radial-gradient(ellipse at center, green 0%, rgba(0, 0, 0, 0) 100%); }
+        body div#wrapper section.radial article div.innerContainer .yellow {
+          margin: 0;
+          height: 120px;
+          width: 16%;
+          display: inline-block;
+          border-radius: 10px;
+          background: radial-gradient(ellipse at center, yellow 0%, rgba(0, 0, 0, 0) 100%); }
+        body div#wrapper section.radial article div.innerContainer .orange {
+          margin: 0;
+          height: 120px;
+          width: 16%;
+          display: inline-block;
+          border-radius: 10px;
+          background: radial-gradient(ellipse at center, orange 0%, rgba(0, 0, 0, 0) 100%); }
+        body div#wrapper section.radial article div.innerContainer .red {
+          margin: 0;
+          height: 120px;
+          width: 16%;
+          display: inline-block;
+          border-radius: 10px;
+          background: radial-gradient(ellipse at center, red 0%, rgba(0, 0, 0, 0) 100%); }
+  body footer {
+    text-align: center;
+    border: 3px double black; }
+    body footer h3 {
+      text-decoration: underline;
+      color: #808080; }
+    body footer ul {
+      padding: 0;
+      text-decoration: none;
+      list-style: none;
+      text-align: center; }
+      body footer ul li a {
+        text-decoration: none;
+        color: #808080; }
+
+body div#wrapper section.linear header {
+  border: none; }
+
+body div#wrapper section.radial header {
+  border: none; }
+
+/*# sourceMappingURL=styles.css.map */

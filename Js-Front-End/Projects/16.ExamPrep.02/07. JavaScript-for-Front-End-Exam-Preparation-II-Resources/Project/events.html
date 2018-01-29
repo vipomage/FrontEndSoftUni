@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continental Rift</title>
+    <link href="res/reset.css" rel="stylesheet" type="text/css">
+    <link href="res/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <h1>Continental Drift</h1>
+    </div>
+    <div class="content">
+        <div class="continents">
+        </div>
+        <div class="continent-data">
+        </div>
+        <div class="continent-country">
+        </div>
+    </div>
+</div>
+<script src="res/script.js"></script>
+<script>
+    let continents = {
+        Europe: {
+            name: "Europe",
+            countries: {
+                Bulgaria: {
+                    name: "Bulgaria",
+                    capital: "Sofia",
+                    officialLanguage: "Bulgarian",
+                    population: 7000000,
+                    area: 111000,
+                    politicalStatus: "Republic",
+                    president: "Rumen Radev",
+                    officialCurrency: "LEV(BGN)"
+                },
+                Vatican: {
+                    name: "Vatican",
+                    capital: "Vatican City",
+                    officialLanguage: "Italian",
+                    population: 1000,
+                    area: 0.44,
+                    politicalStatus: "Monarchy",
+                    monarch: "Francis",
+                    officialCurrency: "Euro(EUR)"
+                }
+            }
+        },
+        Asia: {
+            name: "Asia",
+            countries: {
+                Russia: {
+                    name: "Russia",
+                    capital: "Moscow",
+                    officialLanguage: "Russian",
+                    population: 144463451,
+                    area: 17075200,
+                    politicalStatus: "Republic",
+                    president: "Vladimir Putin",
+                    officialCurrency: "Russian ruble(RUB)"
+                },
+                China: {
+                    name: "China",
+                    capital: "Beijing",
+                    officialLanguage: "Chinese",
+                    population: 1403500365,
+                    area: 9596961,
+                    politicalStatus: "Republic",
+                    president: "Xi Jinping",
+                    officialCurrency: "Renminbi(CNY)"
+                }
+            }
+        }
+    };
+
+    $( 'div.continents' ).on( 'click', 'div.continent', ( e ) => {
+        $( '.continent-data' ).css( 'display', 'inline-block' );
+        $( '.continent-country' ).css( 'display', 'inline-block' );
+        let continent = e.target.innerText;
+        continentData( continents, continent );
+
+    } );
+    continentsRender( continents );
+</script>
+</body>
+</html>

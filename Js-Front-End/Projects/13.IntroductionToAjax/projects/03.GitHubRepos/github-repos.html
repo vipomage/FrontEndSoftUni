@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Repos</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<label for="username">GitHub username:</label>
+<input required="true" type="text" id="username" value="k1r1L"/>
+<button onclick="loadRepos()">Load Repos</button>
+<ul style="font-size: 35px; font-family: Consolas,'serif';font-weight: 900" id="repos">
+
+</ul>
+<script>
+    async function loadRepos() {
+        let username = $( 'input' ).val();
+
+        $.ajax( {
+            url: `https://api.github.com/users/${username}/repos`,
+            success: loadSuccess
+        } );
+
+
+        function loadSuccess( data ) {
+            console.log( data );
+            for ( let entry of data ) {
+                console.log( entry );
+                let element = $( `<li ><a href="${entry[ 'html_url' ]}">${entry.full_name}</a></li>` );
+                $( '#repos' ).append( element );
+            }
+        }
+    }
+</script>
+</body>
+</html>

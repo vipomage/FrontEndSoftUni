@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Codex</title>
+    <link href="res/reset.css" rel="stylesheet" type="text/css">
+    <link href="res/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="res/toastr.js"></script>
+    <link rel="stylesheet" href="res/toastr.css">
+
+</head>
+<body>
+<div class="container">
+    <h1>Enter Location</h1>
+    <form class="location-form" >
+        <input type="text" class="location-input">
+
+        <button type="button"  onclick="getData()">Load</button>
+    </form>
+    <div class="result">
+    </div>
+</div>
+<script src="script.js"></script>
+<script>
+    $('input').focus();
+    enterKey();
+    $( 'div.container' ).on(
+        'click', 'div.pokemon-title',
+        function () {
+            $( this ).siblings().slideToggle()
+        } );
+    Command: toastr["info"]("You you can use Enter key on input form.", "Hey there :) ")
+    toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": false,
+        "positionClass": "toast-top-right",
+        "preventDuplicates": true,
+        "onclick": null,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    }
+</script>
+</body>
+</html>
+

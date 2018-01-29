@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Codex</title>
+    <link href="res/reset.css" rel="stylesheet" type="text/css">
+    <link href="res/show-style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="result">
+        <div class="location"></div>
+        <div class="pokemons"></div>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+<script>$(document).ready( ()=>{
+    let location = {
+        name: 'Dianabad',
+        longitude: '95.242',
+        latitude: '94.123',
+        pokemons: {
+            0: {
+                name: 'Pikachu',
+                power: 2000,
+                evolvedFrom: 'none',
+                evolvesTo: 'Raichu'
+            },
+            1: {
+                name: 'Bulbasaur',
+                power: 1000,
+                evolvedFrom: 'Something',
+                evolvesTo: 'Something else'
+            }
+        }
+    };
+renderDataInHTML(location);
+});</script>
+</body>
+</html>

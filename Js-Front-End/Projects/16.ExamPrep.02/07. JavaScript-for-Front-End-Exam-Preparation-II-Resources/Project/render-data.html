@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continental Rift</title>
+    <link href="res/reset.css" rel="stylesheet" type="text/css">
+    <link href="res/show-style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="res/script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <h1>Continental Drift</h1>
+    </div>
+    <div class="content">
+        <div class="continents">
+        </div>
+        <div class="continent-data">
+        </div>
+        <div class="continent-country">
+        </div>
+    </div>
+</div>
+<script src="res/script.js"></script>
+<script>
+        let continents = {
+        Europe: {
+            name: "Europe",
+            countries: {
+                Bulgaria: {
+                    name: "Bulgaria",
+                    capital: "Sofia",
+                    officialLanguage: "Bulgarian",
+                    population: 7000000,
+                    area: 111000,
+                    politicalStatus: "Republic",
+                    president: "Rumen Radev",
+                    officialCurrency: "LEV(BGN)"
+                }
+            }
+        }
+        };
+        renderDataInHTML(continents);
+</script>
+</body>
+</html>
